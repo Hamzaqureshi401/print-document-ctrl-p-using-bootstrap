@@ -1,0 +1,175 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Print</title>
+      <link class="js-stylesheet" href="/asset/css/light.css" rel="stylesheet">
+      <link href="/asset/css/style.css" rel="stylesheet">
+      <link href="/asset/css/custom.css" rel="stylesheet">
+   </head>
+   <body>
+      
+      <div class="card">
+         <div class="card-body">
+            <div class="row">
+               <div class="col-12">
+                  <div class="d-flex flex-row">
+                     <div class="col-md-6">
+                        <img src="https://acc.b2bdigitize.com/uploads/logo/1698076505.png" alt="Company Logo" style="width: auto; height: auto; max-width: 60%; max-height: 60%;">
+                     </div>
+                     <div class="col-md-6 text-end">
+                        <div class="address-info">
+                           <br>
+                           <span style="color: #F4864C;">M</span> &nbsp;123456<br>
+                           <span style="color: #F4864C;">E</span> &nbsp;email@email.com<br>
+                           <span style="color: #F4864C;">W</span> &nbsp;www.vanleeuwenairconditioning.nl
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr>
+    <div class="row">
+        <div class="col-2">{!! DNS2D::getBarcodeHTML('4445645656', 'QRCODE') !!}</div>
+        <div class="col-2">{!! DNS1D::getBarcodeHTML('4445645656', 'PHARMA') !!}</div>
+        <div class="col-2">{!! DNS1D::getBarcodeHTML('4445645656', 'PHARMA2T') !!}</div>
+        <div class="col-2">{!! DNS1D::getBarcodeHTML('4445645656', 'CODABAR') !!}</div>
+        <div class="col-2">{!! DNS1D::getBarcodeHTML('4445645656', 'KIX') !!}</div>
+        <!-- <div class="col-2">{!! DNS1D::getBarcodeHTML('4445645656', 'RMS4CC') !!}</div> -->
+        <!-- <div class="mb-3">{!! DNS1D::getBarcodeHTML('4445645656', 'UPCA') !!}</div>         -->
+    </div>
+            <div class="invoice-box table-height">
+               <table cellpadding="0" cellspacing="0" class="view-table">
+                  <tbody>
+                     <tr class="top">
+                        <td colspan="6" class="view-td1">
+                           <table class="view-table1">
+                              <tbody>
+                                 <tr>
+                                    <td class="view-td2">
+                                       <font class="view-f1">
+                                       <font class="view-f2">
+                                       Customer Info
+                                       </font>
+                                       </font><br>
+                                       <font class="view-align1">
+                                       <font class="view-f3">
+                                       MR Talha
+                                       </font>
+                                       </font><br>
+                                       <font class="view-align1">
+                                       <font class="view-f3">
+                                       ,Multan, Pakistan,
+                                       </font>
+                                       </font><br>
+                                    </td>
+                                    <td class="view-f4 text-end">
+                                       <font class="view-f5">
+                                       <font class="view-f6">
+                                       Billing Details</font>
+                                       </font><br>
+                                       <font class="view-align1">
+                                          <!-- <font
+                                             class="view-f3">
+                                             Van Leeuwen Airconditioning </font> -->
+                                          <font class="view-f3">
+                                          invoice Date: 2023-11-10 </font>
+                                       </font>
+                                       <br>
+                                       <font class="view-align1">
+                                       <font class="view-f3">
+                                       <font class="view-f3">
+                                       Quotation No: 201154
+                                       </font>
+                                       </font>
+                                       </font><br>
+                                       <font class="view-align1">
+                                       <font class="view-f3">
+                                       invoice No: 
+                                       202610
+                                       -1
+                                       </font>
+                                       </font>
+                                       <br>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="row">
+               <span class="text-center">Invoice Upon Delivery
+               20
+               %</span>
+               <hr>
+               <table class="table table-striped table-binvoiceed table-sm">
+                  <thead class="bg-secondary-light">
+                     <tr class="text-sm">
+                        <th>Sl</th>
+                        <th>Product/Service</th>
+                        <th class="">Btw</th>
+                        <th class="text-end">Total</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr class="text-sm">
+                        <td>1</td>
+                        <td>
+                           <b> AC Fitting Service</b>
+                        </td>
+                        <td class="">
+                           <span class="px-1">63</span>
+                        </td>
+                        <td class="text-end">
+                           <span class="px-1">363</span>
+                        </td>
+                     </tr>
+                     <tr class="text-sm">
+                        <td>2</td>
+                        <td>
+                           <b> AC Fitting Service</b>
+                        </td>
+                        <td class="">
+                           <span class="px-1">63</span>
+                        </td>
+                        <td class="text-end">
+                           <span class="px-1">363</span>
+                        </td>
+                     </tr>
+                  </tbody>
+                  <tfoot>
+                     <tr>
+                        <td></td>
+                        <td colspan="2" class="text-end"><strong>Total Amt Execl. VAT:</strong></td>
+                        <td class="text-end"><strong>€726.00</strong></td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="2" class="text-end"><strong> 'Btw'                        20
+                           %:</strong>
+                        </td>
+                        <td class="text-end"><strong>€126.00</strong></td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="2" class="text-end"><strong>Total Amt Inc VAT:</strong></td>
+                        <td class="text-end"><strong>€726.00</strong></td>
+                     </tr>
+                     <tr>
+                        <td>Total Amount is 726 excluding tex and  
+                           20
+                           % is 145.2
+                        </td>
+                     </tr>
+                  </tfoot>
+               </table>
+            </div>
+         </div>
+      </div>
+     
+   </body>
+</html>
